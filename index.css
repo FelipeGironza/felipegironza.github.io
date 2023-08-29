@@ -139,7 +139,7 @@ img {
         padding: 2px 10px;
     }
     .botones-container {
-        top: 209%;
+        top: 192%;
     }
     .boton-encuesta{
         font-size: 7px;
@@ -168,7 +168,7 @@ img {
     }
     
     .botones-container {
-        top: 132%;
+        top: 225%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -204,7 +204,7 @@ img {
     }
     
     .botones-container {
-        top: 247%;
+        top: 227%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -222,7 +222,7 @@ img {
     }
 }
 
-@media (min-width: 382px) and (max-width: 391px) {
+@media (min-width: 382px) and (max-width: 390px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -240,7 +240,7 @@ img {
     }
     
     .botones-container {
-        top: 132%;
+        top: 232%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -258,7 +258,43 @@ img {
     }
 }
 
-@media (min-width: 391px) and (max-width: 480px) {
+@media (min-width: 391px) and (max-width: 400px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 237%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 40px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -276,7 +312,7 @@ img {
     }
     
     .botones-container {
-        top: 310%;
+        top: 285%;
     }
     
     .boton-izquierdo,.boton-derecho{
