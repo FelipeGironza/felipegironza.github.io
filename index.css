@@ -168,7 +168,7 @@ img {
     }
     
     .botones-container {
-        top: 245%;
+        top: 132%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -222,7 +222,7 @@ img {
     }
 }
 
-@media (min-width: 382px) and (max-width: 390px) {
+@media (min-width: 382px) and (max-width: 391px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -240,7 +240,7 @@ img {
     }
     
     .botones-container {
-        top: 252%;
+        top: 132%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -258,7 +258,7 @@ img {
     }
 }
 
-@media (min-width: 390px) and (max-width: 480px) {
+@media (min-width: 391px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
