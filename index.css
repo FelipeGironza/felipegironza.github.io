@@ -186,7 +186,115 @@ img {
     }
 }
 
-@media (min-width: 377px) and (max-width: 480px) {
+@media (min-width: 377px) and (max-width: 380px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 337%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 45px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 381px) and (max-width: 396px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 350%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 40px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 396px) and (max-width: 400px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 353%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 40px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
