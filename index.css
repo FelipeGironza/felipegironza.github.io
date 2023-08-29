@@ -139,7 +139,7 @@ img {
         padding: 2px 10px;
     }
     .botones-container {
-        top: 286%;
+        top: 209%;
     }
     .boton-encuesta{
         font-size: 7px;
@@ -168,7 +168,7 @@ img {
     }
     
     .botones-container {
-        top: 333%;
+        top: 245%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -186,7 +186,7 @@ img {
     }
 }
 
-@media (min-width: 377px) and (max-width: 380px) {
+@media (min-width: 377px) and (max-width: 382px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -204,43 +204,7 @@ img {
     }
     
     .botones-container {
-        top: 337%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 45px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 10px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 381px) and (max-width: 396px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 25px; 
-    }
-    
-    .countdown-label {
-        font-size: 12px; 
-    }
-    
-    .botones-container {
-        top: 350%;
+        top: 247%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -258,7 +222,7 @@ img {
     }
 }
 
-@media (min-width: 396px) and (max-width: 400px) {
+@media (min-width: 382px) and (max-width: 390px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -276,7 +240,7 @@ img {
     }
     
     .botones-container {
-        top: 353%;
+        top: 252%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -294,7 +258,7 @@ img {
     }
 }
 
-@media (min-width: 420px) and (max-width: 480px) {
+@media (min-width: 390px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -312,7 +276,7 @@ img {
     }
     
     .botones-container {
-        top: 423%;
+        top: 310%;
     }
     
     .boton-izquierdo,.boton-derecho{
