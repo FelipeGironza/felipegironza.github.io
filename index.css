@@ -168,7 +168,7 @@ img {
     }
     
     .botones-container {
-        top: 225%;
+        top: 149%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -204,7 +204,7 @@ img {
     }
     
     .botones-container {
-        top: 227%;
+        top: 151%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -240,7 +240,7 @@ img {
     }
     
     .botones-container {
-        top: 232%;
+        top: 154.5%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -276,7 +276,7 @@ img {
     }
     
     .botones-container {
-        top: 237%;
+        top: 158.2%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -294,7 +294,7 @@ img {
     }
 }
 
-@media (min-width: 400px) and (max-width: 480px) {
+@media (min-width: 401px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -312,7 +312,7 @@ img {
     }
     
     .botones-container {
-        top: 285%;
+        top: 189%;
     }
     
     .boton-izquierdo,.boton-derecho{
