@@ -211,7 +211,43 @@ img {
     }
     
     .botones-container {
-        top: 158%;
+        top: 150%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 40px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media(min-width: 370px) and (max-width: 376px) and (min-height: 675px) and (max-height: 690px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 157%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -301,7 +337,7 @@ img {
     }
 }
 
-@media (min-width: 382px) and (max-width: 391px) {
+@media (min-width: 383px) and (max-width: 391px) {
     .fotopincel {
         margin-top: 10%;
     }
