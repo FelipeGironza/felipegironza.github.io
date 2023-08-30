@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Georgia;
 }
 
 .countdown-item {
@@ -39,11 +40,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Georgia;
 }
 
 .countdown-label {
     font-size: 45px;
     color: #777;
+    font-family: Georgia;
 }
 
 .botones-container {
@@ -56,11 +59,12 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     max-width: 1000px;
+    font-family: Georgia;
 }
 
 .boton-izquierdo,
 .boton-derecho {
-    margin: 5px 170px;
+    margin: 5px 150px;
 }
 
 .gallery-container {
@@ -89,13 +93,15 @@ img {
 }
 
 .boton {
-    display: inline-block;
+    display: flex;
     padding: 20px 40px;
     background-color: #9b7252;
     color: #fff;
     text-decoration: none;
     border-radius: 100px;
     font-size: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .nuestra-fiesta {
@@ -114,10 +120,10 @@ img {
     text-decoration: none;
     cursor: pointer;
     border-radius: 100px;
-    
+    font-family: Georgia;    
 }
 
-@media (max-width: 320px) {
+@media (max-device-width: 320px) {
     .fotocontador {
         width: 100%;
     }
@@ -139,7 +145,8 @@ img {
         padding: 2px 10px;
     }
     .botones-container {
-        top: 192%;
+        place-content: 10%;
+        top:167%;
     }
     .boton-encuesta{
         font-size: 7px;
@@ -150,7 +157,7 @@ img {
     }
 }
 
-@media (min-width: 321px) and (max-width: 376px) {
+@media (min-device-width: 321px) and (max-width: 376px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -168,7 +175,7 @@ img {
     }
     
     .botones-container {
-        top: 149%;
+        top: 150%;
     }
     
     .boton-izquierdo,.boton-derecho{
@@ -186,7 +193,7 @@ img {
     }
 }
 
-@media (min-width: 377px) and (max-width: 382px) {
+@media (min-device-width: 377px) and (max-device-width: 382px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -222,7 +229,7 @@ img {
     }
 }
 
-@media (min-width: 382px) and (max-width: 391px) {
+@media (min-device-width: 382px) and (max-device-width: 391px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -258,7 +265,7 @@ img {
     }
 }
 
-@media (min-width: 392px) and (max-width: 400px) {
+@media (min-device-width: 391px) and (max-device-width: 400px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -294,7 +301,7 @@ img {
     }
 }
 
-@media (min-width: 401px) and (max-width: 420px) {
+@media (min-device-width: 401px) and (max-device-width: 420px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -330,7 +337,43 @@ img {
     }
 }
 
-@media (min-width: 421px) and (max-width: 480px) {
+@media (min-device-width: 421px) and (max-device-width: 440px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 30px; 
+    }
+    
+    .countdown-label {
+        font-size: 15px; 
+    }
+    
+    .botones-container {
+        top: 166%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 50px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-device-width: 441px) and (max-device-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -366,7 +409,7 @@ img {
     }
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
+@media (min-device-width: 481px) and (max-device-width: 600px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -402,7 +445,7 @@ img {
     }
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-device-width: 601px) and (max-device-width: 800px) {
     .fotopincel {
         margin-top: 10%;
     }
