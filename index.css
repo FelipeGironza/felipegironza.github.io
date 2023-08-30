@@ -222,7 +222,7 @@ img {
     }
 }
 
-@media (min-width: 382px) and (max-width: 390px) {
+@media (min-width: 382px) and (max-width: 391px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -258,7 +258,7 @@ img {
     }
 }
 
-@media (min-width: 391px) and (max-width: 400px) {
+@media (min-width: 392px) and (max-width: 400px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -294,7 +294,43 @@ img {
     }
 }
 
-@media (min-width: 401px) and (max-width: 480px) {
+@media (min-width: 401px) and (max-width: 420px) {
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 30px; 
+    }
+    
+    .countdown-label {
+        font-size: 15px; 
+    }
+    
+    .botones-container {
+        top: 166%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 50px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
