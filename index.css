@@ -123,7 +123,7 @@ img {
     font-family: Georgia;    
 }
 
-@media (max-device-width: 320px) {
+@media (max-width: 320px) {
     .fotocontador {
         width: 100%;
     }
@@ -157,7 +157,7 @@ img {
     }
 }
 
-@media (min-device-width: 321px) and (max-width: 376px) {
+@media (min-width: 321px) and (max-width: 376px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -193,7 +193,7 @@ img {
     }
 }
 
-@media (min-device-width: 377px) and (max-device-width: 382px) {
+@media (min-width: 377px) and (max-width: 382px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -229,7 +229,43 @@ img {
     }
 }
 
-@media (min-device-width: 382px) and (max-device-width: 391px) {
+@media (min-width: 377px) and (max-width: 382px) and (min-height: 680px) and (max-height: 714px){
+    .fotopincel {
+        margin-top: 10%;
+    }
+    
+    .fotocontador {
+        width: 100%;
+    }
+    
+    .countdown-number {
+        font-size: 25px; 
+    }
+    
+    .countdown-label {
+        font-size: 12px; 
+    }
+    
+    .botones-container {
+        top: 158%;
+    }
+    
+    .boton-izquierdo,.boton-derecho{
+        margin: 10px 40px;
+    }
+
+    .boton {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    
+    .boton-encuesta {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
+
+@media (min-width: 382px) and (max-width: 391px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -265,7 +301,7 @@ img {
     }
 }
 
-@media (min-device-width: 391px) and (max-device-width: 400px) {
+@media (min-width: 391px) and (max-width: 400px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -301,7 +337,7 @@ img {
     }
 }
 
-@media (min-device-width: 401px) and (max-device-width: 420px) {
+@media (min-width: 401px) and (max-width: 420px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -337,7 +373,7 @@ img {
     }
 }
 
-@media (min-device-width: 421px) and (max-device-width: 440px) {
+@media (min-width: 421px) and (max-width: 440px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -373,7 +409,7 @@ img {
     }
 }
 
-@media (min-device-width: 441px) and (max-device-width: 480px) {
+@media (min-width: 441px) and (max-width: 480px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -409,7 +445,7 @@ img {
     }
 }
 
-@media (min-device-width: 481px) and (max-device-width: 600px) {
+@media (min-width: 481px) and (max-width: 600px) {
     .fotopincel {
         margin-top: 10%;
     }
@@ -445,7 +481,7 @@ img {
     }
 }
 
-@media (min-device-width: 601px) and (max-device-width: 800px) {
+@media (min-width: 601px) and (max-width: 800px) {
     .fotopincel {
         margin-top: 10%;
     }
