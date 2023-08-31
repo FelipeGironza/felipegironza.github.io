@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: Georgia, sans-serif;
     color: #9b7252;
-    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .container {
@@ -12,12 +13,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
-}
+} 
 .fotopincel{
     margin-top: 5%;
 }
-.fotocontador,
-.fotopincel {
+.fotocontador img, .fotopincel img{
     width: 100%;
     height: auto;
 }
@@ -51,10 +51,10 @@ body {
 
 .botones-container {
     position: absolute;
-    top: 620%;
-    left: 50%;
+    top: 650%;
+    left: 70%;
     transform: translate(-50%, -50%);
-    display: flex;
+    display: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
@@ -64,7 +64,7 @@ body {
 
 .boton-izquierdo,
 .boton-derecho {
-    margin: 5px 150px;
+    margin: 470px 5px;
 }
 
 .gallery-container {
@@ -80,7 +80,6 @@ body {
     justify-content: center;
     transition: all ease-in-out;
 }
-
 img {
     max-width: 100%;
     height: auto;
@@ -88,8 +87,9 @@ img {
 }
 
 .boton-confirmar {
-    margin-top: -21%;
+    margin-top: -19%;
     margin-bottom: 20px;
+    margin-left: 500px;
 }
 
 .boton {
@@ -121,470 +121,144 @@ img {
     cursor: pointer;
     border-radius: 100px;
     font-family: Georgia;    
-}
+} 
 
-@media (max-width: 320px) {
-    .fotocontador {
-        width: 100%;
+@media(max-width:324px){
+    .countdown-label{
+        font-size: 12px;
     }
-    .fotopincel {
-        margin-top: 10%;
+    .countdown-number{
+        font-size: 25px;
     }
-    .countdown-number {
-        font-size: 20px;
-    }
-    .countdown-label {
-        font-size: 9px;
-    }
-    .boton-izquierdo,
-    .boton-derecho {
-        margin: 5px 33px;
+    .botones-container{
+        position: absolute;
+        display:grid;
+        top:130%;
+        left: 70%;
     }
     .boton{
-        font-size: 7px;
-        padding: 2px 10px;
+        font-size: 8px;
+        padding: 5px 10px;
     }
-    .botones-container {
-        place-content: 10%;
-        top:167%;
-    }
-    .boton-encuesta{
-        font-size: 7px;
-        padding: 3px 10px;
+    .boton-izquierdo,.boton-derecho{
+        margin: 60px 0px;
     }
     .boton-confirmar{
-        bottom: 50%;
+        margin-top: -70px;
+        margin-left: 25%;
+    }
+    .boton-encuesta{
+        font-size: 8px;
+        padding: 4px 15px;
     }
 }
 
-@media (min-width: 321px) and (max-width: 376px)  {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
+@media(min-width:325px) and (max-width:399px){
+    .fotocontador img{
         width: 100%;
+        align-items: center;
     }
-    
-    .countdown-number {
-        font-size: 25px; 
+    .countdown{
+        align-items: center;
+        justify-content: center;
     }
-    
-    .countdown-label {
-        font-size: 12px; 
+    .countdown-label{
+        font-size: 15px;
     }
-    
-    .botones-container {
-        top: 150%;
+    .countdown-number{
+        font-size: 30px;
     }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
+    .botones-container{
+        position: absolute;
+        display:grid;
+        top:152%;
+        left: 70%;
     }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
+    .boton{
         font-size: 10px;
-        padding: 3px 10px;
+        padding: 5px 10px;
     }
-}
-
-@media (min-width: 321px) and (max-width: 376px) and (min-height: 680px) and (max-height: 714px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 25px; 
-    }
-    
-    .countdown-label {
-        font-size: 12px; 
-    }
-    
-    .botones-container {
-        top: 150%;
-    }
-    
     .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
+        margin: 60px 0px;
     }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
+    .boton-confirmar{
+        margin-top: -80px;
+        margin-left: 25%;
     }
-    
-    .boton-encuesta {
+    .boton-encuesta{
         font-size: 10px;
-        padding: 3px 10px;
+        padding: 4px 15px;
     }
 }
 
-@media(min-width: 370px) and (max-width: 376px) and (min-height: 675px) and (max-height: 690px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
+@media(min-width:400px) and (max-width:600px){
+    .fotocontador img,.fotopincel img{
         width: 100%;
     }
-    
-    .countdown-number {
-        font-size: 25px; 
+    .countdown{
+        align-items: center;
+        justify-content: center;
     }
-    
-    .countdown-label {
-        font-size: 12px; 
+    .countdown-label{
+        font-size: 15px;
     }
-    
-    .botones-container {
-        top: 157%;
+    .countdown-number{
+        font-size: 30px;
     }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
+    .botones-container{
+        position: absolute;
+        top: 162%;
+        left: 70%;
     }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
+    .boton{
         font-size: 10px;
-        padding: 3px 10px;
+        padding: 5px 10px;
     }
-}
-
-@media (min-width: 377px) and (max-width: 382px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 25px; 
-    }
-    
-    .countdown-label {
-        font-size: 12px; 
-    }
-    
-    .botones-container {
-        top: 151%;
-    }
-    
     .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
+        margin: 120px 0px;
     }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
+    .boton-confirmar{
+        margin-top: -85px;
+        margin-left: 30%;
     }
-    
-    .boton-encuesta {
+    .boton-encuesta{
         font-size: 10px;
-        padding: 3px 10px;
+        padding: 4px 15px;
     }
 }
 
-@media (min-width: 377px) and (max-width: 382px) and (min-height: 680px) and (max-height: 714px){
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
+@media(min-width:600px) and (max-width:800px){
+    .fotocontador img,.fotopincel img{
         width: 100%;
     }
-    
-    .countdown-number {
-        font-size: 25px; 
+    .countdown{
+        align-items: center;
+        justify-content: center;
     }
-    
-    .countdown-label {
-        font-size: 12px; 
+    .countdown-label{
+        font-size: 15px;
     }
-    
-    .botones-container {
-        top: 158%;
+    .countdown-number{
+        font-size: 30px;
     }
-    
+    .botones-container{
+        position: absolute;
+        top: 240%;
+        left: 70%;
+    }
+    .boton{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
     .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
+        margin: 200px 0px;
     }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
+    .boton-confirmar{
+        margin-top: -115px;
+        margin-left: 30%;
     }
-    
-    .boton-encuesta {
-        font-size: 10px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 383px) and (max-width: 391px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 25px; 
-    }
-    
-    .countdown-label {
-        font-size: 12px; 
-    }
-    
-    .botones-container {
-        top: 154.5%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 10px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 391px) and (max-width: 400px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 25px; 
-    }
-    
-    .countdown-label {
-        font-size: 12px; 
-    }
-    
-    .botones-container {
-        top: 158.2%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 40px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 10px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 401px) and (max-width: 420px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 30px; 
-    }
-    
-    .countdown-label {
-        font-size: 15px; 
-    }
-    
-    .botones-container {
-        top: 166%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 50px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 12px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 421px) and (max-width: 440px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 30px; 
-    }
-    
-    .countdown-label {
-        font-size: 15px; 
-    }
-    
-    .botones-container {
-        top: 166%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 50px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 12px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 441px) and (max-width: 480px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 30px; 
-    }
-    
-    .countdown-label {
-        font-size: 15px; 
-    }
-    
-    .botones-container {
-        top: 189%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 60px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 8px;
-    }
-    
-    .boton-encuesta {
-        font-size: 12px;
-        padding: 3px 10px;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 600px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 35px; 
-    }
-    
-    .countdown-label {
-        font-size: 18px; 
-    }
-    
-    .botones-container {
-        top: 523%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 75px;
-    }
-
-    .boton {
-        padding: 3px 10px;
-        font-size: 12px;
-    }
-    
-    .boton-encuesta {
-        font-size: 12px;
-        padding: 4px 10px;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 800px) {
-    .fotopincel {
-        margin-top: 10%;
-    }
-    
-    .fotocontador {
-        width: 100%;
-    }
-    
-    .countdown-number {
-        font-size: 50px; 
-    }
-    
-    .countdown-label {
-        font-size: 20px; 
-    }
-    
-    .botones-container {
-        top: 703%;
-    }
-    
-    .boton-izquierdo,.boton-derecho{
-        margin: 10px 100px;
-    }
-
-    .boton {
-        padding: 5px 14px;
-        font-size: 14px;
-    }
-    
-    .boton-encuesta {
-        font-size: 14px;
-        padding: 8px 12px;
+    .boton-encuesta{
+        font-size: 16px;
+        padding: 4px 15px;
     }
 }
