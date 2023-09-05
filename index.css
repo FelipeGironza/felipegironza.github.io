@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia;
     color: #9b7252;
     width: 100%;
     height: auto;
@@ -105,10 +105,16 @@ body {
     overflow: hidden;
 }
 .texto-informacion{
+    color: #000;
+    font-family: Georgia;
+    line-height: 0.5;
+    margin-bottom: 0;
+}
+.texto-informacion2{
     color: #9b7252;
     font-family: Georgia;
-    line-height: 1;
-    margin-bottom: 0;
+    font-size:40px;
+    line-height: 0;
 }
 
 .boton-izquierdo,
@@ -259,7 +265,17 @@ img {
         padding: 2px 2px;
     }
     .texto-informacion{
+        color: #000;
+        font-family: Georgia;
+        line-height: 0.5;
+        margin-bottom: 0;
         font-size: 10px;
+    }
+    .texto-informacion2{
+        color: #9b7252;
+        font-family: Georgia;
+        font-size:20px;
+        line-height: 0;
     }
     .boton-izquierdo img,.boton-derecho img{
         max-width: 25%;
@@ -326,11 +342,21 @@ img {
         padding: 2px 2px;
     }
     .texto-informacion{
-        font-size: 15px;
+        color: #000;
+        font-family: Georgia;
+        line-height: 0.5;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .texto-informacion2{
+        color: #9b7252;
+        font-family: Georgia;
+        font-size:20px;
+        line-height: 0;
     }
     .boton{
         font-size: 15px;
-        padding: 6px 25px;
+        padding: 6px 15px;
     }
     .boton-izquierdo img,.boton-derecho img{
         max-width: 25%;
@@ -390,7 +416,17 @@ img {
         padding: 2px 2px;
     }
     .texto-informacion{
+        color: #000;
+        font-family: Georgia;
+        line-height: 0.5;
+        margin-bottom: 0;
         font-size: 15px;
+    }
+    .texto-informacion2{
+        color: #9b7252;
+        font-family: Georgia;
+        font-size:30px;
+        line-height: 0;
     }
     .boton{
         font-size: 15px;
