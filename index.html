@@ -25,11 +25,10 @@
     <meta property="twitter:image" content="https://felipegironza.github.io/jpg/send.jpeg" />
 </head>
 <body>
-    <!-- imagen cuenta regresiva-->
+
     <div class="fotocontador">
         <img src="/jpg/imagen cuenta regresiva.jpeg" alt="">
     </div>
-    <!--contador-->
     <div class="countdown-container">
         <div class="countdown">
             <div class="countdown-item">
@@ -86,7 +85,7 @@
                 <img src="/jpg/galeria.jpeg" alt="">
             </div>
 
-    <!--galeria-->
+ 
     <div class="gallery-container">
         <div class="gallery">
             <img src="/jpg/carrucel 1.jpeg" alt="">
@@ -94,8 +93,6 @@
             <img src="/jpg/carrucel 3.jpeg" alt="">
             <img src="/jpg/carrucel 4.jpeg" alt="">
         </div>
-        <!-- <button class="prev-button">&lt;</button>
-        <button class="next-button">&gt;</button> -->
     </div>
     <script src="/js/galeria.js"></script>
 
@@ -116,7 +113,6 @@
         <p class="texto-nuestra-fiesta">háganlo con amor"</p>
       </div>
 
-    <!--cancion-->
     <div class="cancion">
         <audio id="myAudio" loop>
             <source src="/cancion.mp3" type="audio/mpeg">
@@ -124,13 +120,10 @@
     </div>
     
     <script>
-        // Obtener referencia al elemento de audio
         var audio = document.getElementById("myAudio");
     
-        // Reproducir la canción cuando el usuario haga clic en algún lugar de la página
         document.body.addEventListener("click", function() {
             audio.play();
-            // Remover el evento click después de reproducir para no interferir con pausas
             document.body.removeEventListener("click", arguments.callee);
         });
     </script>
