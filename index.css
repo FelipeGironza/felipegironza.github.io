@@ -247,7 +247,7 @@ img {
         font-size: 15px;
     }
     .texto-flores{
-        font-size: 8px;
+        font-size: 10px;
     }
     .flores{
         display: flex;
@@ -269,7 +269,7 @@ img {
         font-family: Georgia;
         line-height: 0.5;
         margin-bottom: 0;
-        font-size: 8px;
+        font-size: 10px;
     }
     .texto-informacion2{
         color: #9b7252;
@@ -332,7 +332,7 @@ img {
         font-size: 18px;
     }
     .texto-flores{
-        font-size: 13px;
+        font-size: 11px;
     }
     .informacion{
         display: flex;
@@ -346,17 +346,17 @@ img {
         font-family: Georgia;
         line-height: 0.5;
         margin-bottom: 0;
-        font-size: 13px;
+        font-size: 10px;
     }
     .texto-informacion2{
         color: #9b7252;
         font-family: Georgia;
-        font-size:20px;
+        font-size:15px;
         line-height: 0;
     }
     .boton{
-        font-size: 15px;
-        padding: 6px 15px;
+        font-size: 10px;
+        padding: 4px 10px;
     }
     .boton-izquierdo img,.boton-derecho img{
         max-width: 25%;
