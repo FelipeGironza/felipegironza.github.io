@@ -223,7 +223,6 @@ img {
     word-spacing: 0.1em;
     letter-spacing: 0.5em;
     font-size: 20px;
-    font-weight:550;
   }
   
 
@@ -260,10 +259,10 @@ img {
         padding: 2px 2px;
     }
     .texto-informacion{
-        font-size: 12px;
+        font-size: 10px;
     }
     .boton-izquierdo img,.boton-derecho img{
-        max-width: 40%;
+        max-width: 25%;
         height: auto;
     }
     .boton-izquierdo,.boton-derecho{
@@ -272,11 +271,10 @@ img {
     }
     .boton{
         font-size: 12px;
-        padding: 8px 8px;
+        padding: 4px 8px;
     }
     .texto-nuestra-fiesta{
         font-size: 8px;
-        font-weight: 550px;
     }
     .nuestra-fiesta{
         justify-content: center;
@@ -284,7 +282,7 @@ img {
     }
     .boton-encuesta{
         font-size: 10px;
-        padding: 8px 8px;
+        padding: 4px 8px;
     }
     .container-confirmar{
         position: absolute;
@@ -305,9 +303,9 @@ img {
         top: 0;
         right: 0;
     }
-    br{
+    .container-confirmar br:nth-child(2) {
         display: none;
-    }
+      }
 }
 
 @media(min-width:377px) and (max-width:500px){
@@ -332,10 +330,10 @@ img {
     }
     .boton{
         font-size: 15px;
-        padding: 15px 25px;
+        padding: 6px 25px;
     }
     .boton-izquierdo img,.boton-derecho img{
-        max-width: 40%;
+        max-width: 25%;
         height: auto;
     }
     .boton-izquierdo,.boton-derecho{
@@ -351,7 +349,7 @@ img {
     }
     .boton-encuesta{
         font-size: 12px;
-        padding: 15px 25px;
+        padding: 6px 25px;
     }
     .container-confirmar{
         position: absolute;
@@ -372,12 +370,9 @@ img {
         top: 0;
         right: 0;
     }
-    br{
-        display: none;
-    }
 }
 
-@media(min-width:500px) and (max-width:1000px){
+@media(min-width:501px) and (max-width:1000px){
     .countdown-label{
         font-size: 15px;
     }
@@ -399,10 +394,10 @@ img {
     }
     .boton{
         font-size: 15px;
-        padding: 15px 25px;
+        padding: 8px 25px;
     }
     .boton-izquierdo img,.boton-derecho img{
-        max-width: 40%;
+        max-width: 25%;
         height: auto;
     }
     .boton-izquierdo,.boton-derecho{
@@ -418,7 +413,7 @@ img {
     }
     .boton-encuesta{
         font-size: 12px;
-        padding: 15px 25px;
+        padding: 8px 25px;
     }
     .container-confirmar{
         position: absolute;
@@ -438,8 +433,5 @@ img {
     .imagen2 {
         top: 0;
         right: 0;
-    }
-    br{
-        display: none;
     }
 }
