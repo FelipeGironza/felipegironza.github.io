@@ -17,9 +17,16 @@ body {
 .fotopincel{
     margin-top: 5%;
 }
-.fotocontador img, .fotopincel img{
+.fotocontador img{
     width: 100%;
     height: auto;
+    
+}
+.fotopincel {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .countdown {
@@ -49,24 +56,74 @@ body {
     font-family: Georgia;
 }
 
-.botones-container {
-    position: absolute;
-    top: 650%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    display: row;
-    justify-content: space-between;
+.flores {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+    position: relative;
     max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-flores{
+    margin-top: 10px;
+    text-align: center;
+    flex-direction: column;
+    color: #9b7252;
     font-family: Georgia;
+    font-size: 20px;
+    letter-spacing: 0.35em;
+}
+
+.izquierda,.derecha{
+    max-width: 20%;
+    transform: rotate(180deg);
+}
+.izquierda {
+    align-self: flex-start;
+}
+
+.derecha {
+    align-self: flex-end;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.texto-informacion{
+    color: #9b7252;
+    font-family: Georgia;
+    line-height: 1;
+    margin-bottom: 0;
 }
 
 .boton-izquierdo,
 .boton-derecho {
-    margin: 470px 5px;
+    margin: 5px 100px;
+    text-align: center;
+}
+.boton-izquierdo img,.boton-derecho img{
+    max-width: 100%;
+    height: auto;
 }
 
+.foto-galeria{
+    margin-top: 30px;
+}
 .gallery-container {
     position: relative;
     max-width: 1000px;
@@ -86,14 +143,8 @@ img {
     object-fit: contain;
 }
 
-.boton-confirmar {
-    margin-top: -19%;
-    margin-bottom: 20px;
-    margin-left: 500px;
-}
-
 .boton {
-    display: flex;
+    display: inline-block;
     padding: 20px 40px;
     background-color: #9b7252;
     color: #fff;
@@ -102,239 +153,293 @@ img {
     font-size: 20px;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
+    font-family: Georgia;
 }
 
 .nuestra-fiesta {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
+    padding: 0;
+    margin:0;
+}
+.nuestra-fiesta img {
+    max-width: 100%;
     height: auto;
 }
 
+.texto-nuestra-fiesta {
+    margin-top: 10px;
+    color: #9b7252;
+    font-family: Georgia;
+}
+  
 .boton-encuesta {
     display: inline-block;
-    padding: 20px 40px;
-    margin: 5px;
-    font-size: 20px;
-    color: #fff;
+    margin-top: 10px;
     background-color: #9b7252;
-    border: none;
+    color: #fff;
     text-decoration: none;
-    cursor: pointer;
+    font-size: 20px;
     border-radius: 100px;
-    font-family: Georgia;    
-} 
+    padding: 20px 40px;
+    font-family: Georgia;
+}
 
-@media(max-width:324px){
+.container-confirmar {
+    position: relative;
+    text-align: center;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .imagen1,
+  .imagen2 {
+    position: absolute;
+    width: 290px;
+  }
+  
+  .imagen1 {
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .imagen2 {
+    top: 0;
+    right: 0;
+  }
+  
+  .texto-nuestra-fiesta {
+    margin-top: 20px;
+    font-family: Georgia; 
+    padding: 2px;
+    margin: 0px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.5em;
+    font-size: 20px;
+    font-weight:550;
+  }
+  
+
+@media(max-width:376px){
+    .fotopincel {
+        width: 90%;
+        height: auto;
+    }
+    .countdown{
+        display: flex;
+    }
     .countdown-label{
+        font-size: 10px;
+    }
+    .countdown-number{
+        font-size: 15px;
+    }
+    .texto-flores{
+        font-size: 10px;
+    }
+    .flores{
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        max-width: 500px;
+    }
+    .informacion{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        max-width: 375px;
+        padding: 2px 2px;
+    }
+    .texto-informacion{
         font-size: 12px;
     }
-    .countdown-number{
-        font-size: 25px;
+    .boton-izquierdo img,.boton-derecho img{
+        max-width: 40%;
+        height: auto;
     }
-    .botones-container{
-        position: absolute;
-        display:grid;
-        top:130%;
-        left: 70%;
+    .boton-izquierdo,.boton-derecho{
+        text-align: center;
+        margin: 5px -70px;
     }
     .boton{
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+    .texto-nuestra-fiesta{
         font-size: 8px;
-        padding: 5px 10px;
+        font-weight: 550px;
     }
-    .boton-izquierdo,.boton-derecho{
-        margin: 60px 0px;
-    }
-    .boton-confirmar{
-        margin-top: -70px;
-        margin-left: 25%;
+    .nuestra-fiesta{
+        justify-content: center;
+        text-align: center;
     }
     .boton-encuesta{
-        font-size: 8px;
-        padding: 4px 15px;
+        font-size: 10px;
+        padding: 8px 8px;
+    }
+    .container-confirmar{
+        position: absolute;
+        text-align: center;
+        position: relative;
+        max-width: 1000px;
+    }
+    .imagen1,
+    .imagen2 {
+        position: absolute;
+        width: 100px;
+    }
+    .imagen1 {
+        top: 0;
+        left: 0;
+    }
+    .imagen2 {
+        top: 0;
+        right: 0;
+    }
+    br{
+        display: none;
     }
 }
 
-@media(min-width:325px) and (max-width:376px){
-    .fotocontador img{
-        width: 100%;
-        align-items: center;
-    }
-    .countdown{
-        align-items: center;
-        justify-content: center;
-    }
+@media(min-width:377px) and (max-width:500px){
     .countdown-label{
         font-size: 15px;
     }
     .countdown-number{
-        font-size: 30px;
+        font-size: 18px;
     }
-    .botones-container{
-        position: absolute;
-        display:grid;
-        top:152%;
-        left: 70%;
+    .texto-flores{
+        font-size: 15px;
+    }
+    .informacion{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        max-width: 500px;
+        padding: 2px 2px;
+    }
+    .texto-informacion{
+        font-size: 15px;
     }
     .boton{
-        font-size: 10px;
-        padding: 5px 10px;
+        font-size: 15px;
+        padding: 15px 25px;
+    }
+    .boton-izquierdo img,.boton-derecho img{
+        max-width: 40%;
+        height: auto;
     }
     .boton-izquierdo,.boton-derecho{
-        margin: 60px 0px;
+        text-align: center;
+        margin: 5px -70px;
     }
-    .boton-confirmar{
-        margin-top: -80px;
-        margin-left: 25%;
+    .texto-nuestra-fiesta{
+        font-size: 8.5px;
+    }
+    .nuestra-fiesta{
+        justify-content: center;
+        text-align: center;
     }
     .boton-encuesta{
-        font-size: 10px;
-        padding: 4px 15px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .container-confirmar{
+        position: absolute;
+        text-align: center;
+        position: relative;
+        max-width: 1000px;
+    }
+    .imagen1,
+    .imagen2 {
+        position: absolute;
+        width: 100px;
+    }
+    .imagen1 {
+        top: 0;
+        left: 0;
+    }
+    .imagen2 {
+        top: 0;
+        right: 0;
+    }
+    br{
+        display: none;
     }
 }
 
-@media(min-width:325px) and (max-width:376px) and (min-height:650px) and (max-height:690px){
-    .fotocontador img{
-        width: 100%;
-        align-items: center;
-    }
-    .countdown{
-        align-items: center;
-        justify-content: center;
-    }
+@media(min-width:500px) and (max-width:1000px){
     .countdown-label{
         font-size: 15px;
     }
     .countdown-number{
-        font-size: 30px;
+        font-size: 18px;
     }
-    .botones-container{
-        position: absolute;
-        display:grid;
-        top:160%;
-        left: 70%;
-    }
-    .boton{
-        font-size: 10px;
-        padding: 5px 10px;
-    }
-    .boton-izquierdo,.boton-derecho{
-        margin: 50px 0px;
-    }
-    .boton-confirmar{
-        margin-top: -75px;
-        margin-left: 25%;
-    }
-    .boton-encuesta{
-        font-size: 10px;
-        padding: 4px 15px;
-    }
-}
-
-@media(min-width:376px) and (max-width:400px){
-    .fotocontador img{
-        width: 100%;
-        align-items: center;
-    }
-    .countdown{
-        align-items: center;
-        justify-content: center;
-    }
-    .countdown-label{
+    .texto-flores{
         font-size: 15px;
     }
-    .countdown-number{
-        font-size: 30px;
-    }
-    .botones-container{
-        position: absolute;
-        display:grid;
-        top:158%;
-        left: 70%;
-    }
-    .boton{
-        font-size: 10px;
-        padding: 5px 10px;
-    }
-    .boton-izquierdo,.boton-derecho{
-        margin: 60px 0px;
-    }
-    .boton-confirmar{
-        margin-top: -80px;
-        margin-left: 25%;
-    }
-    .boton-encuesta{
-        font-size: 10px;
-        padding: 4px 15px;
-    }
-}
-
-@media(min-width:401px) and (max-width:600px){
-    .fotocontador img,.fotopincel img{
-        width: 100%;
-    }
-    .countdown{
-        align-items: center;
+    .informacion{
+        display: flex;
         justify-content: center;
+        position: relative;
+        max-width: 500px;
+        padding: 2px 2px;
     }
-    .countdown-label{
+    .texto-informacion{
         font-size: 15px;
     }
-    .countdown-number{
-        font-size: 30px;
-    }
-    .botones-container{
-        position: absolute;
-        top: 162%;
-        left: 70%;
-    }
     .boton{
-        font-size: 10px;
-        padding: 5px 10px;
-    }
-    .boton-izquierdo,.boton-derecho{
-        margin: 120px 0px;
-    }
-    .boton-confirmar{
-        margin-top: -85px;
-        margin-left: 30%;
-    }
-    .boton-encuesta{
-        font-size: 10px;
-        padding: 4px 15px;
-    }
-}
-
-@media(min-width:600px) and (max-width:800px){
-    .fotocontador img,.fotopincel img{
-        width: 100%;
-    }
-    .countdown{
-        align-items: center;
-        justify-content: center;
-    }
-    .countdown-label{
         font-size: 15px;
+        padding: 15px 25px;
     }
-    .countdown-number{
-        font-size: 30px;
-    }
-    .botones-container{
-        position: absolute;
-        top: 240%;
-        left: 70%;
-    }
-    .boton{
-        font-size: 16px;
-        padding: 5px 10px;
+    .boton-izquierdo img,.boton-derecho img{
+        max-width: 40%;
+        height: auto;
     }
     .boton-izquierdo,.boton-derecho{
-        margin: 200px 0px;
+        text-align: center;
+        margin: 5px -70px;
     }
-    .boton-confirmar{
-        margin-top: -115px;
-        margin-left: 30%;
+    .texto-nuestra-fiesta{
+        font-size: 10px;
+    }
+    .nuestra-fiesta{
+        justify-content: center;
+        text-align: center;
     }
     .boton-encuesta{
-        font-size: 16px;
-        padding: 4px 15px;
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+    .container-confirmar{
+        position: absolute;
+        text-align: center;
+        position: relative;
+        max-width: 1000px;
+    }
+    .imagen1,
+    .imagen2 {
+        position: absolute;
+        width: 100px;
+    }
+    .imagen1 {
+        top: 0;
+        left: 0;
+    }
+    .imagen2 {
+        top: 0;
+        right: 0;
+    }
+    br{
+        display: none;
     }
 }
