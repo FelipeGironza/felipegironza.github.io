@@ -81,7 +81,7 @@ body {
     color: #9b7252;
     font-family: Georgia;
     font-size: 20px;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.2em;
 }
 
 .izquierda,.derecha{
@@ -227,7 +227,7 @@ img {
     padding: 2px;
     margin: 0px;
     word-spacing: 0.1em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     font-size: 20px;
   }
   
@@ -247,7 +247,8 @@ img {
         font-size: 15px;
     }
     .texto-flores{
-        font-size: 10px;
+        font-size: 11px;
+        letter-spacing: 0.2em;
     }
     .flores{
         display: flex;
@@ -290,7 +291,8 @@ img {
         padding: 4px 8px;
     }
     .texto-nuestra-fiesta{
-        font-size: 8px;
+        font-size: 10px;
+        letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
         justify-content: center;
@@ -332,7 +334,8 @@ img {
         font-size: 18px;
     }
     .texto-flores{
-        font-size: 11px;
+        font-size: 12px;
+        letter-spacing: 0.2em;
     }
     .informacion{
         display: flex;
@@ -368,6 +371,7 @@ img {
     }
     .texto-nuestra-fiesta{
         font-size: 8.5px;
+        letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
         justify-content: center;
@@ -407,6 +411,7 @@ img {
     }
     .texto-flores{
         font-size: 15px;
+        letter-spacing: 0.2em;
     }
     .informacion{
         display: flex;
@@ -442,6 +447,7 @@ img {
     }
     .texto-nuestra-fiesta{
         font-size: 10px;
+        letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
         justify-content: center;
