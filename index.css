@@ -176,12 +176,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-.texto-nuestra-fiesta {
-    margin-top: 10px;
-    color: #9b7252;
-    font-family: Georgia;
-}
   
 .boton-encuesta {
     display: inline-block;
@@ -291,7 +285,7 @@ img {
         padding: 4px 8px;
     }
     .texto-nuestra-fiesta{
-        font-size: 10px;
+        font-size: 11px;
         letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
@@ -370,7 +364,7 @@ img {
         margin: 5px -70px;
     }
     .texto-nuestra-fiesta{
-        font-size: 8.5px;
+        font-size: 12px;
         letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
@@ -446,7 +440,7 @@ img {
         margin: 5px -70px;
     }
     .texto-nuestra-fiesta{
-        font-size: 10px;
+        font-size: 15px;
         letter-spacing: 0.2em;
     }
     .nuestra-fiesta{
