@@ -118,10 +118,8 @@
             <source src="/cancion.mp3" type="audio/mpeg">
         </audio>
     </div>
-    
     <script>
         var audio = document.getElementById("myAudio");
-    
         document.body.addEventListener("click", function() {
             audio.play();
             document.body.removeEventListener("click", arguments.callee);
